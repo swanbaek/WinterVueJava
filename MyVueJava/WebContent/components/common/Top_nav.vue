@@ -18,10 +18,10 @@
               <a href="/">Home</a>
             </li>
             <li>  
-              <a href="/signup">SignUp</a>
+              <a href="#">SignUp</a>
             </li>
             <li>  
-              <a href="/login">SignIn</a>
+              <a href="#">SignIn</a>
             </li>
             <li>  
               <a href="#">Contacts</a>
