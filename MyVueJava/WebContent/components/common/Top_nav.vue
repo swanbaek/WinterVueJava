@@ -15,13 +15,16 @@
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active">
-              <a href="/">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>  
               <a href="#">SignUp</a>
             </li>
             <li>  
               <a href="#">SignIn</a>
+            </li>
+            <li>  
+              <a href="#">Board</a>
             </li>
             <li>  
               <a href="#">Contacts</a>
