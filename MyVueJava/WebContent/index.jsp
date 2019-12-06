@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VueJava</title>
+<!-- Bootstrap CDN-->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
+<link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+    rel="stylesheet" type="text/css">
+<!-- Vue CDN -->
+<script type="text/javascript" src="https://www.unpkg.com/vue"></script>
+<script type="text/javascript" src="https://www.unpkg.com/http-vue-loader"></script>
+<script type="text/javascript" src="https://www.unpkg.com/vue-router/dist/vue-router.js"></script>
+<script type="text/javascript" src="js/router.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+
+<!-- Script: Smooth scrolling between anchors in the same page -->
+<script src="js/smooth-scroll.js"></script>
+<style>
+	
+</style>
+<script>
+	$(function(){
+		
+	})
+</script>
+</head>
+<% //jsp와 vue연동 테스트
+	request.setAttribute("msg","Hello VueJSP app");
+%>
+<body>
+	<div id="app"> ${msg }
+		<top-nav></top-nav>
+		<router-view></router-view> 
+		<foot-comp></foot-comp>
+	</div>
+</body>
+</html>

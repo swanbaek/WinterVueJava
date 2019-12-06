@@ -8,26 +8,26 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><span style="font-weight:bold">
+          <router-link to="/" class="navbar-brand" href="#"><span style="font-weight:bold">
            <i class="fa fa-2x fa-fw fa-pencil-square text-success"></i>TIS
-          </span></a>
+          </span></router-link>
         </div>
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active">
-              <a href="#">Home</a>
+              <router-link to="/">Home</router-link>
             </li>
             <li>  
-              <a href="#">SignUp</a>
+              <router-link to="/">SignUp</router-link>
             </li>
             <li>  
-              <a href="#">SignIn</a>
+              <router-link to="/">SignIn</router-link>
             </li>
             <li>  
-              <a href="#">Board</a>
+              <router-link to="/">Board</router-link>
             </li>
             <li>  
-              <a href="#">Contacts</a>
+              <router-link to="/">Contacts</a>
             </li>
           </ul>
         </div>
